@@ -1,13 +1,13 @@
-let numeroSecreto = Math.floor(Math.random()*10)+1;
+let numeroSecreto = Math.floor(Math.random()*50)+1;
 let numeroUsuario = 0;
 let numeroIntento = 1;
 let palabraVez = "vez";
-let intentosMaximos = 4;
+let intentosMaximos = 10;
 
 console.log(numeroSecreto);
 
 while(numeroUsuario != numeroSecreto){
-    numeroUsuario = prompt("intruduzca un numero del 1 al 10 por favor");
+    numeroUsuario = prompt("intruduzca un numero del 1 al 50 por favor");
 
 console.log(numeroUsuario)
 
